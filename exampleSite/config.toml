@@ -1,4 +1,4 @@
-baseURL = "https://datakrew-airspace.com"
+baseURL = "https://datakrew-airspace.netlify.com"
 disableLanguages = []
 disqusShortname = ""
 paginate = "4"
