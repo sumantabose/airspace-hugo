@@ -4,7 +4,7 @@ disqusShortname = ""
 paginate = "4"
 summaryLength = "30"
 theme = "airspace-hugo"
-title = "Airspace | Creative Agency Hugo Template"
+title = "DataKrew | MADS IoT Platform"
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
@@ -20,63 +20,61 @@ languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
 [[menu.footer]]
-URL = "contact"
-name = "Contact"
-weight = 6
-[[menu.footer]]
-URL = "faq"
-name = "FAQ"
-weight = 5
-[[menu.footer]]
-URL = "pricing"
-name = "Pricing"
-weight = 4
-[[menu.footer]]
-URL = "service"
-name = "Service"
-weight = 3
+URL = "about"
+name = "About"
+weight = 1
 [[menu.footer]]
 URL = "project"
 name = "Project"
 weight = 2
 [[menu.footer]]
-URL = "about"
-name = "About"
-weight = 1
-[[menu.main]]
+URL = "service"
+name = "Service"
+weight = 3
+[[menu.footer]]
 URL = "pricing"
 name = "Pricing"
-parent = "Pages"
-weight = 1
-[[menu.main]]
+weight = 4
+[[menu.footer]]
 URL = "faq"
 name = "FAQ"
-parent = "Pages"
-weight = 2
-[[menu.main]]
+weight = 5
+[[menu.footer]]
 URL = "contact"
 name = "Contact"
 weight = 6
 [[menu.main]]
-hasChildren = true
-name = "Pages"
-weight = 5
+URL = "about"
+name = "About"
+weight = 1
+[[menu.main]]
+URL = "project"
+name = "Project"
+weight = 2
+[[menu.main]]
+URL = "service"
+name = "Service"
+weight = 3
 [[menu.main]]
 URL = "blog"
 name = "Blog"
 weight = 4
 [[menu.main]]
-URL = "service"
-name = "Service"
-weight = 3
+hasChildren = true
+name = "Pages"
+weight = 5
 [[menu.main]]
-URL = "project"
-name = "Project"
-weight = 2
+URL = "faq"
+name = "FAQ"
+parent = "Pages"
 [[menu.main]]
-URL = "about"
-name = "About"
-weight = 1
+URL = "pricing"
+name = "Pricing"
+parent = "Pages"
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 6
 [params]
 author = "Themefisher"
 contact_form_action = "#"
